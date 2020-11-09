@@ -1,0 +1,49 @@
+//поменял имена переменных, убрал лишние проверки, добавил тернарный оператор
+
+
+
+function validatePassword(password) {
+    let lengthPassword;
+    let checkConditions;
+    let isNumber;
+    let isCharacter;
+    let isSymbol;
+
+    lengthPassword = (6 < password.length && password.length < 20) ? true : false;
+
+    for (let i = 0; i < password.length; i++) {
+
+        if (!isNaN(password[i])) {
+            isNumber = true;
+            break;
+        } else {
+            isNumber = false;
+        }
+    }
+
+    for (let i = 0; i < password.length; i++) {
+
+        if (password[i].toLowerCase() !== password[i].toUpperCase()) {
+            isCharacter = true;
+            break;
+        } else {
+            isCharacter = false;
+        }
+    }
+
+    for (let i = 0; i < password.length; i++) {
+
+        if (isNaN(password[i]) && (password[i].toLowerCase() === password[i].toUpperCase())) {
+            isSymbol = false;
+            break;
+        } else {
+            isSymbol = true;
+        }
+    }
+
+    checkConditions = (lengthPassword && isCharacter && isNumber && isSymbol) ? "VALID" : "INVALID";
+
+    return console.log(checkConditions);
+}
+
+validatePassword("qwer1tyu/iop")

@@ -1,0 +1,25 @@
+const applePrice = 12.50;
+let discountPercent = 15;
+let discount;
+var newApplePrice;
+
+if (discountPercent >100 || discountPercent<0 || typeof(discountPercent)!=="number"){
+  console.log("нет такой скидки");
+}else{  
+  discount = discountPercent/100;
+  newApplePrice = Math.round((applePrice - (applePrice * discount)) * 100) / 100 ;
+  console.log(newApplePrice);
+}
+
+let orange = 12.50;
+let profitabilityPercent = 15;
+let profitability;
+let orangePrice;
+
+if (profitabilityPercent<0 || typeof(profitabilityPercent)!=="number"){
+  console.log("неверно указано число");
+}else{  
+  profitability = profitabilityPercent/100;
+  orangePrice = Math.round((orange + (orange * profitability)) * 100) / 100 ;
+  console.log(orangePrice);
+}

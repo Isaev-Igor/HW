@@ -1,0 +1,45 @@
+// поменял имена переменных и обьявил twoNumbers
+
+
+
+let longNumber1 = '3333333333';
+let longNumber2 = '11111111111111111';
+let numberLength;
+let sumNumber = '';
+let currentNumber = '';
+let nextPosition = 0;
+let twoNumbers;
+
+if (longNumber1.length > longNumber2.length) {
+    numberLength = longNumber1.length - longNumber2.length;
+    for (let i = 0; i < numberLength; i++) {
+        longNumber2 = '0' + longNumber2;
+    }
+} else {
+    numberLength = longNumber2.length - longNumber1.length;
+    for (let i = 0; i < numberLength; i++) {
+        longNumber1 = '0' + longNumber1;
+    }
+}
+
+
+for (let i = longNumber1.length - 1; i >= 0; i--) {
+    if ((longNumber1[i]*1) + (longNumber2[i]*1) + nextPosition < 10) {
+        sumNumber = (longNumber1[i]*1) + (longNumber2[i]*1) + nextPosition + sumNumber;
+        nextPosition = 0;
+    } else {
+        twoNumbers = (longNumber1[i]*1) + (longNumber2[i]*1) + nextPosition;
+        currentNumber = (String(twoNumbers).slice(1, 2));
+        sumNumber = currentNumber + sumNumber;
+        nextPosition = 1;
+    }
+}
+
+
+if (nextPosition) {
+    sumNumber = '1' + sumNumber;
+}
+
+console.log(longNumber1);
+console.log(longNumber2);
+console.log(sumNumber);
