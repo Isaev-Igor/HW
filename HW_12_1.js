@@ -1,4 +1,4 @@
-// Задача_1_вариант_1
+//вариант_1
 
 for (var i = 0; i < 10; i++) {
     (function(index) {
@@ -10,7 +10,7 @@ for (var i = 0; i < 10; i++) {
 
 
 
-// Задача_1_вариант_2
+//вариант_2
 for(var i = 0; i < 10; i++) {
     setTimeout((function(e) {
         return function() {
