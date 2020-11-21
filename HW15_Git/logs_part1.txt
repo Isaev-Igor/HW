@@ -1,0 +1,36 @@
+
+ПОЛИНА@NEW MINGW64 /d/Раб стол/Обучение Игорь/Hillel/HW/HW15_Git (develop)
+$ git reflog
+2a600fa (HEAD -> develop, origin/develop, origin/HW15_Git, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{0}: checkout: moving from HW15_Git_1 to develop
+2a600fa (HEAD -> develop, origin/develop, origin/HW15_Git, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{1}: checkout: moving from HW15_Git to HW15_Git_1
+2a600fa (HEAD -> develop, origin/develop, origin/HW15_Git, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{2}: merge develop: Fast-forward
+fb8ecc0 (origin/main, origin/HEAD) HEAD@{3}: checkout: moving from HW15_Git_2 to HW15_Git
+2a600fa (HEAD -> develop, origin/develop, origin/HW15_Git, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{4}: checkout: moving from HW15_Git_1 to HW15_Git_2
+2a600fa (HEAD -> develop, origin/develop, origin/HW15_Git, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{5}: merge develop: Fast-forward
+01ca3a4 HEAD@{6}: checkout: moving from develop to HW15_Git_1
+2a600fa (HEAD -> develop, origin/develop, origin/HW15_Git, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{7}: merge HW15_Git_2: Fast-forward
+01ca3a4 HEAD@{8}: merge HW15_Git_1: Fast-forward
+8d1789b HEAD@{9}: checkout: moving from HW15_Git_2 to develop
+2a600fa (HEAD -> develop, origin/develop, origin/HW15_Git, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{10}: checkout: moving from develop to HW15_Git_2
+8d1789b HEAD@{11}: checkout: moving from HW15_Git_2 to develop
+2a600fa (HEAD -> develop, origin/develop, origin/HW15_Git, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{12}: commit: HW15_Git_2 change html
+ce841d3 HEAD@{13}: commit: HW15_Git_2 add style folder & style file
+01ca3a4 HEAD@{14}: checkout: moving from HW15_Git_1 to HW15_Git_2
+01ca3a4 HEAD@{15}: commit: HW15_Git_1 add images source & change html
+bd70166 HEAD@{16}: checkout: moving from develop to HW15_Git_1
+8d1789b HEAD@{17}: checkout: moving from HW15_Git_1 to develop
+bd70166 HEAD@{18}: commit: HW15_Git_1 add folder & images
+8d1789b HEAD@{19}: checkout: moving from develop to HW15_Git_1
+8d1789b HEAD@{20}: commit: develop add html layout
+fb8ecc0 (origin/main, origin/HEAD) HEAD@{21}: checkout: moving from HW15_Git to develop
+fb8ecc0 (origin/main, origin/HEAD) HEAD@{22}: checkout: moving from develop to HW15_Git
+fb8ecc0 (origin/main, origin/HEAD) HEAD@{23}: Branch: renamed refs/heads/main to refs/heads/develop
+fb8ecc0 (origin/main, origin/HEAD) HEAD@{25}: commit: HW_16.1 delete fail
+e459787 HEAD@{26}: commit: reflog
+e4a0016 (origin/HW_15_Git_2, origin/HW_15_Git_1) HEAD@{27}: checkout: moving from HW_15_Git to main
+173d2f1 (origin/HW_15_Git, origin/HW_12, HW_12) HEAD@{28}: checkout: moving from main to HW_15_Git
+e4a0016 (origin/HW_15_Git_2, origin/HW_15_Git_1) HEAD@{29}: checkout: moving from HW_15_Git to main
+:
+
+ПОЛИНА@NEW MINGW64 /d/Раб стол/Обучение Игорь/Hillel/HW/HW15_Git (develop)
+173d2f1 (origin/HW_15_Git, origin/HW_12, HW_12) HEAD@{30}: checkout: moving from main to HW_15_Git
