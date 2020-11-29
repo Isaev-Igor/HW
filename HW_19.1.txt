@@ -1,0 +1,30 @@
+const first = 1;
+const second = 25;
+
+
+
+if (first > second) {
+ this.setValue(second);
+ log('string');
+} else if (first = second) {
+ log(123);
+} else {
+ this.setValue(first);
+}
+
+
+
+1. first > second  => 'string'
+2. first > second  => this.setValue(second)
+3. first > second  =/> 123
+4. first > second  =/>this.setValue(first)
+
+1. first < second  =/> 'string'
+2. first < second  =/> this.setValue(second)
+3. first < second  =/> 123
+4. first < second  =>this.setValue(first)
+
+1. first = second  =/> 'string'
+2. first = second  =/> this.setValue(second)
+3. first = second  => 123
+4. first = second  =/> this.setValue(first);
